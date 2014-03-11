@@ -1,0 +1,11 @@
+debathena-debian-dev (0.4) unstable; urgency=low
+
+  * Convert the package from equivs to proper package
+
+ -- Victor Vasiliev <vasilvv@mit.edu>  Tue, 11 Mar 2014 11:26:23 -0400
+
+debathena-debian-dev (0.3) unstable; urgency=low
+
+  * First version
+
+ -- Debathena Project <debathena@mit.edu>  Fri, 29 Mar 2013 10:28:05 -0400
