@@ -1,10 +1,12 @@
+Source: debathena-debian-dev
 Section: debathena/utils
 Priority: extra
 Standards-Version: 3.9.3
+Maintainer: Debathena Project <debathena@mit.edu>
+Build-Depends: debhelper (>= 7)
 
 Package: debathena-debian-dev
-Version: 0.3
-Maintainer: Debathena Project <debathena@mit.edu>
+Architecture: all
 Depends: apt-file,
  apt-rdepends,
  apt-show-versions,
@@ -27,8 +29,6 @@ Depends: apt-file,
  sbuild,
  wdiff,
  debathena-lintian-config
-Copyright: ../common/copyright
-Readme: ../common/README-meta.in
 Description: Metapackage providing tools for Debathena development
  This metapackage installs a collection of tools used for development
  of Debathena.
