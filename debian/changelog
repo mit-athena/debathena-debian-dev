@@ -1,3 +1,13 @@
+debathena-debian-dev (0.5) unstable; urgency=low
+
+  * Import the dependencies from the now-defunct debathena-build-depends
+    package: gnulib, config-package-dev, dh-buildinfo, grep-dctrl,
+    python-all-dev, python-pyrex, python-setuptools, python-support
+    (Trac: #1462)
+  * Add dependency on debathena-aclocal, until we can kill it entirely.
+
+ -- Jonathan Reed <jdreed@mit.edu>  Wed, 14 May 2014 16:14:54 -0400
+
 debathena-debian-dev (0.4) unstable; urgency=low
 
   * Convert the package from equivs to proper package
