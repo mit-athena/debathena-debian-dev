@@ -1,3 +1,9 @@
+debathena-debian-dev (0.6) UNRELEASED; urgency=low
+
+  * Do not depend on dpatch, because it's obsolete (Trac: #1472)
+
+ -- Jonathan Reed <jdreed@mit.edu>  Thu, 22 May 2014 14:41:45 -0400
+
 debathena-debian-dev (0.5) unstable; urgency=low
 
   * Import the dependencies from the now-defunct debathena-build-depends
