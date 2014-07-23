@@ -1,3 +1,10 @@
+debathena-debian-dev (0.7) unstable; urgency=low
+
+  * Drop debian-el and dpkg-dev-el too, until upstream can package them
+    competently. (Trac: #1468)
+
+ -- Jonathan Reed <jdreed@mit.edu>  Wed, 23 Jul 2014 12:38:49 -0400
+
 debathena-debian-dev (0.6) unstable; urgency=low
 
   * Do not depend on dpatch, because it's obsolete (Trac: #1472)
