@@ -1,3 +1,9 @@
+debathena-debian-dev (0.8) unstable; urgency=medium
+
+  * Remove dependency on python-support as it is deprecated.
+
+ -- Lizhou Sha <slz@mit.edu>  Sat, 18 Jun 2016 03:26:19 -0400
+
 debathena-debian-dev (0.7) unstable; urgency=low
 
   * Drop debian-el and dpkg-dev-el too, until upstream can package them
